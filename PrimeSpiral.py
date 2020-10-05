@@ -1,9 +1,9 @@
 ################################################################################
 # Python Program to find coordinates of a prime number in a Prime Spiral 
 
-Prime numbers are written in a spiral form starting from the origin (0, 0). 
-The numbers shown in the right column and the bottom row are the column numbers 
-and row numbers respectively ( i.e. y and x coordinates)
+#Prime numbers are written in a spiral form starting from the origin (0, 0). 
+#The numbers shown in the right column and the bottom row are the column numbers 
+#and row numbers respectively ( i.e. y and x coordinates)
 
 # Code Contributed by Kavyapriya R
 ################################################################################
@@ -63,13 +63,8 @@ def primeIndex(inp):
 				break
 	return inp 
 
-# driver code 
-inp = 113
 
-# Prime Index Finder Output ported 
-# to final algorithm 
+inp = int(input())
 temp = primeIndex(inp) 
-
 spiralSplicer(temp) 
 
-#This code is contributed by Sachin Bisht 
